@@ -1,0 +1,167 @@
+.container {
+    background-color: #0d1729;
+}
+
+.leftSide {
+    flex: 0 0 35%;
+    margin-left: 10%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 30%; 
+}
+
+.Name {
+    margin-top: 20%;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.Title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 6%;
+    color: white;
+}
+
+.Description {
+    font-family: 'Noto Sans', sans-serif;
+    color: #868e96;
+}
+
+.rightSide {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-top: 6.5%;
+    margin-left: 50%;
+    margin-right: 10%;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.Passion {
+    margin-bottom: 15%;
+    font-family: 'Noto Sans', sans-serif;
+    color: #868e96;
+}
+
+.bigTitle {
+    font-size: 35px;
+    margin-bottom: 3%;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.highlight {
+    color: white;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #868e96;
+}
+
+.time {
+    margin-left: auto;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.jobName {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+}
+
+.CompanyName {
+    margin-top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #868e96;
+}
+
+.jobDescription {
+    margin-top: 0px !important;
+    font-family: 'Noto Sans', sans-serif;
+    color: #868e96;
+    margin-bottom: 5%;
+}
+
+.gap {
+    margin-top: 20%;
+}
+
+.catPic {
+    margin-top: 8%;
+    height: 300px;
+}
+
+.image-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.MIE {
+    margin-bottom: 8%;
+}
+
+.techTitle {
+    margin-top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #868e96;
+}
+
+.projectContent {
+    font-family: 'Noto Sans', sans-serif;
+    color: #868e96;
+}
+
+.educationDescription {
+    font-family: 'Noto Sans', sans-serif;
+    color: #868e96;
+}
+
+.gapCreate {
+    margin-bottom: 10%;
+}
+
+.contactInfo {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.gapCreate2 {
+    margin-top: 7%;
+}
+
+.createdByMe {
+    color: #868e96;
+    margin-top: 50%;
+    margin-bottom: 7%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+.gapCreate3 {
+    margin-top: 28%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 1.2s;
+}
+
+a:hover {
+    color: #4d377b;
+}
